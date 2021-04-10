@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <header id="header" class="header" role="banner" aria-label="Site header">
+        <div class="mp-header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="clearfix region region-header" style="padding-top: 10px; padding-bottom: 10px;">
+                            <div id="block-macpak-branding"
+                                class="site-branding block block-system block-system-branding-block">
+
+                                <a href="/" title="Home" rel="home" class="site-branding__logo">
+                                    <img src="http://www.macrosoftpakistan.com/sites/default/files/mp-logo.jpg"
+                                        height="74px" width="auto" alt="Home">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-6 col-sm-6 col-xs-12">
+                        <form class="search-block-form" data-drupal-selector="search-block-form" action="/search/node"
+                            method="get" id="search-block-form" accept-charset="UTF-8">
+                            <div
+                                class="js-form-item form-item js-form-type-search form-type-search js-form-item-keys form-item-keys form-no-label">
+                                <label for="edit-keys" class="sr-only">Search</label>
+                                <input title="Enter the terms you wish to search for." data-drupal-selector="edit-keys"
+                                    type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128"
+                                    class="form-search">
+                            </div>
+                            <div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper"
+                                id="edit-actions"><input data-drupal-selector="edit-submit" type="submit"
+                                    id="edit-submit" value="Search" class="button js-form-submit form-submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mp-nav-box">
+            <div class="container">
+                <div class="section layout-container clearfix">
+                    <div class="region region-primary-menu">
+                        <nav role="navigation" aria-labelledby="block-mainnavigation-menu" id="block-mainnavigation"
+                            class="block block-menu navigation menu--main">
+                            <h2 class="sr-only" id="block-mainnavigation-menu">Main navigation</h2>
+                            <div class="content">
+                                <div class="menu-toggle-target menu-toggle-target-show" id="show-block-mainnavigation">
+                                </div>
+                                <div class="menu-toggle-target" id="hide-block-mainnavigation"></div>
+                                <a class="menu-toggle" href="#show-block-mainnavigation"><img
+                                        src="https://www.macrosoftpakistan.com/themes/macpak/images/menu-burger.png"
+                                        alt=""></a>
+                                <a class="menu-toggle menu-toggle--hide" href="#hide-block-mainnavigation"><img
+                                        src="https://www.macrosoftpakistan.com/themes/macpak/images/menu-burger.png"
+                                        alt=""></a>
+
+                                <ul class="menu">
+                                    <li class="menu-item">
+                                        <a href="/" data-drupal-link-system-path="<front>" class="is-active">Home</a>
+                                    </li>
+                                    <li class="menu-item menu-item--expanded" style="position: relative;">
+                                        <a href="/about-us" data-drupal-link-system-path="node/13">About Us</a>
+                                        <ul class="menu">
+                                            <li class="menu-item">
+                                                <a href="/our-mission" data-drupal-link-system-path="node/14">Our
+                                                    Mission</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/our-history" data-drupal-link-system-path="node/18">Our
+                                                    History</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/our-leadership" data-drupal-link-system-path="node/3">Our
+                                                    Leadership</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/our-core-values" data-drupal-link-system-path="node/17">Our
+                                                    Core Values</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/our-websites" data-drupal-link-system-path="node/1">Our
+                                                    Websites</a>
+                                            </li>
+                                        </ul>
+
+                                    </li>
+                                    <li class="menu-item menu-item--expanded" style="position: relative;">
+                                        <a href="/products" data-drupal-link-system-path="node/5">Products</a>
+                                        <ul class="menu">
+                                            <li class="menu-item">
+                                                <a href="/products#Prints-on-Demand"
+                                                    data-drupal-link-system-path="node/5">Print on-Demand</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/products#Reports-on-Demand"
+                                                    data-drupal-link-system-path="node/5">Reports on-Demand</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/products#Resource-on-Demand"
+                                                    data-drupal-link-system-path="node/5">Resources on-Demand</a>
+                                            </li>
+                                        </ul>
+
+                                    </li>
+                                    <li class="menu-item menu-item--expanded" style="position: relative;">
+                                        <a href="/services" data-drupal-link-system-path="node/12">Services</a>
+                                        <ul class="menu">
+                                            <li class="menu-item">
+                                                <a href="/application-development"
+                                                    data-drupal-link-system-path="node/8">Application</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/content-management"
+                                                    data-drupal-link-system-path="node/11">Content Management</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/multimedia-mobile"
+                                                    data-drupal-link-system-path="node/10">Multimedia &amp; Mobile</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/qa-testing" data-drupal-link-system-path="node/7">QA
+                                                    Testing</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/web-development" data-drupal-link-system-path="node/9">Web
+                                                    Development</a>
+                                            </li>
+                                        </ul>
+
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="/client-partners" data-drupal-link-system-path="node/16">Client &amp;
+                                            Partners</a>
+                                    </li>
+                                    <li class="menu-item menu-item--expanded" style="position: relative;">
+                                        <a href="/careers" data-drupal-link-system-path="node/15">Careers</a>
+                                        <ul class="menu">
+                                            <li class="menu-item">
+                                                <a href="/careers#current"
+                                                    data-drupal-link-system-path="node/15">Current Openings</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/why-macrosoft" data-drupal-link-system-path="node/19">Why
+                                                    Macrosoft</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="/contact-us" data-drupal-link-system-path="node/4">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="http://www.macrosoftpakistan.com/sites/default/files/styles/large/public/2016-10/application-development_0.jpg?itok=j27D2-3L"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="http://www.macrosoftpakistan.com/sites/default/files/styles/large/public/2016-10/mobile-development.jpg?itok=BqYloJVt"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="http://www.macrosoftpakistan.com/sites/default/files/styles/large/public/2016-10/web-development.jpg?itok=MdDlDA0r"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="http://www.macrosoftpakistan.com/sites/default/files/styles/large/public/2016-10/quality-testing.jpg?itok=B8v8BNf1"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <p class="welcome-text">
+            Macrosoft Pakistan (SMC-Private) Limited is a software design and development company established in October
+            2006 in Lahore, Pakistan. It is as an offshore development center of Macrosoft, Inc USA. The key to
+            Macrosoft's success, with respect to its quality assured products, customized solutions, and client
+            satisfaction, are its well defined software development processes and procedures.
+        </p>
+    </div>
+
+    <div class="mp-contentbox-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 views-row">
+                                    <div class="views-field views-field-field-image-home-content">
+                                        <div class="field-content">
+                                            <img src="http://www.macrosoftpakistan.com/sites/default/files/2016-10/mobiled.jpg"
+                                                width="100%" height="auto" alt="Mobile Development" typeof="foaf:Image">
+
+                                        </div>
+                                    </div>
+                                    <div class="views-field views-field-field-front-page-title">
+                                        <div class="field-content">Mobile Development
+                                        </div>
+                                    </div>
+                                    <div class="views-field views-field-field-short-description">
+                                        <div class="field-content">
+                                            <p>Mobile phones have formed an integral
+                                                part of our daily lives today with
+                                                millions of people worldwide using it
+                                                and dramatically increasing day by day
+                                                and it's expected that soon mobile
+                                                phones will… <a
+                                                    href="/multimedia-development-mobile-application-android-iphone-development-0"
+                                                    class="views-more-link">Read
+                                                    More</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 views-row">
+                                    <div class="views-field views-field-field-image-home-content">
+                                        <div class="field-content">
+                                            <img src="http://www.macrosoftpakistan.com/sites/default/files/2016-07/applicationdev.jpg"
+                                                width="100%" height="auto" alt="Application Development"
+                                                typeof="foaf:Image">
+
+                                        </div>
+                                    </div>
+                                    <div class="views-field views-field-field-front-page-title">
+                                        <div class="field-content">Application
+                                            Development</div>
+                                    </div>
+                                    <div class="views-field views-field-field-short-description">
+                                        <div class="field-content">
+                                            <p>Our application development services are
+                                                focused towards helping our customers in
+                                                delivering better quality services but
+                                                in a very cost effective way. We are
+                                                able to achieve these competing… <a
+                                                    href="/application-development-web-mobile-application-development"
+                                                    class="views-more-link">Read
+                                                    More</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 views-row">
+                                    <div class="views-field views-field-field-image-home-content">
+                                        <div class="field-content">
+                                            <img src="http://www.macrosoftpakistan.com/sites/default/files/2016-07/QA.jpg"
+                                                width="100%" height="auto"" alt=" QA Testing" typeof="foaf:Image">
+
+                                        </div>
+                                    </div>
+                                    <div class="views-field views-field-field-front-page-title">
+                                        <div class="field-content">QA Testing</div>
+                                    </div>
+                                    <div class="views-field views-field-field-short-description">
+                                        <div class="field-content">
+                                            <p>Macrosoft Pakistan has a well established
+                                                SQA Department; we have a team of expert
+                                                Software Quality Assurance resources
+                                                that are experienced in Manual and
+                                                Automation Testing, we have well
+                                                defined… <a
+                                                    href="/qa-testing-quality-assurance-testing-software-testing-services"
+                                                    class="views-more-link">Read
+                                                    More</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 views-row">
+                                    <div class="views-field views-field-field-image-home-content">
+                                        <div class="field-content">
+                                            <img src="http://www.macrosoftpakistan.com/sites/default/files/2016-07/multimedia.jpg"
+                                                width="100%" height="auto" alt="Multimedia Development"
+                                                typeof="foaf:Image">
+
+                                        </div>
+                                    </div>
+                                    <div class="views-field views-field-field-front-page-title">
+                                        <div class="field-content">Multimedia
+                                            Development</div>
+                                    </div>
+                                    <div class="views-field views-field-field-short-description">
+                                        <div class="field-content">
+                                            <p>Macrosoft has specialized teams with
+                                                multimedia development expertise. Our
+                                                expertise includes DirectShow
+                                                technology, Customized Filters
+                                                development, FFMPEG open source
+                                                technology, Streaming… <a
+                                                    href="/multimedia-development-mobile-application-android-iphone-development"
+                                                    class="views-more-link">Read
+                                                    More</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 views-row">
+                                    <div class="views-field views-field-field-image-home-content">
+                                        <div class="field-content">
+                                            <img src="http://www.macrosoftpakistan.com/sites/default/files/2016-07/web%20developement.jpg"
+                                                width="100%" height="auto" alt="Web Development" typeof="foaf:Image">
+
+                                        </div>
+                                    </div>
+                                    <div class="views-field views-field-field-front-page-title">
+                                        <div class="field-content">Web Development</div>
+                                    </div>
+                                    <div class="views-field views-field-field-short-description">
+                                        <div class="field-content">
+                                            <p>Macrosoft's web development services
+                                                provide creative and professional web
+                                                applications to empower your business
+                                                online. Combination of the latest
+                                                technology and best development practice
+                                                helps us… <a href="/web-development-web-deigning-e-commerce-development"
+                                                    class="views-more-link">Read
+                                                    More</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <!--right container-->
+
+                            <div class="right-pane">
+
+
+                                <div id="sidebar-second" class="column sidebar">
+
+                                    <aside class="section" role="complementary">
+
+                                        <div class="region region-sidebar-second">
+                                            <div id="block-sidebarvideo"
+                                                class="block block-block-content block-block-contentbe84da51-d36e-4a32-a869-64ccbf8de6a4">
+
+
+                                                <div class="content">
+
+                                                    <div
+                                                        class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
+                                                        <p><iframe allowfullscreen="" frameborder="0" height="100%"
+                                                                src="https://www.youtube.com/embed/H6_taENJQ1A?rel=0"
+                                                                width="274"></iframe></p>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div id="block-customersupport"
+                                                class="block block-block-content block-block-content045d0d1f-e3e2-4ce8-a564-63d4d2e42f84">
+
+
+                                                <div class="content">
+
+                                                    <div
+                                                        class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
+                                                        <div class="contact-right-box">
+                                                            <!--quick contact box-->
+                                                            <h5>Customer support</h5>
+
+                                                            <div class="ca-phone">
+                                                                <!--phone-->
+                                                                <!--phone--><span class="phone-icon"><img alt="Phone"
+                                                                        data-entity-type="file"
+                                                                        data-entity-uuid="542f3473-0aad-48c9-9099-cf36a8a05220"
+                                                                        src="/sites/default/files/inline-images/phone.png"></span>
+                                                                <span class="phone-num">+92- 42-35867781<br>
+                                                                    +92- 42-35867782</span>
+                                                                <!--phone ends-->
+                                                            </div>
+                                                            <!--phone ends-->
+
+                                                            <div class="ca-mail">
+                                                                <!--phone-->
+                                                                <!--phone--><span class="phone-icon"><img alt="Mail"
+                                                                        data-entity-type="file"
+                                                                        data-entity-uuid="7060f5a2-c13c-4305-9288-df037fefc7e1"
+                                                                        src="/sites/default/files/inline-images/mail.png"></span>
+                                                                <span class="hm-email"><a
+                                                                        href="mailto:msaghir@macrosoftinc.com">msaghir@macrosoftinc.com</a></span>
+                                                                <!--phone ends-->
+                                                                <!--quick contact box-->
+                                                            </div>
+                                                            <!--phone ends-->
+                                                        </div>
+                                                        <!--quick contact box-->
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div id="block-siteseal"
+                                                class="block block-block-content block-block-content5d950de3-afa8-491f-b324-8e4c503d9b63">
+
+
+                                                <div class="content">
+
+                                                    <div
+                                                        class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
+                                                        <p><span id="siteseal">
+                                                                <script async="" type="text/javascript"
+                                                                    src="https://seal.godaddy.com/getSeal?sealID=mI8EsiSUm1aKVBkCtkuc4F8Fkyd6rYKK9fONiLA3q68LmDlY91PEbMGykZR1"></script>
+                                                            </span></p>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                    </aside>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <nav role="navigation" aria-labelledby="block-macpak-footer-menu" id="block-macpak-footer"
+                class="block block-menu navigation menu--footer">
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="/" data-drupal-link-system-path="<front>" class="is-active">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="/about-us" data-drupal-link-system-path="node/13">About Us</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="/products" data-drupal-link-system-path="node/5">Products</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="/services" data-drupal-link-system-path="node/12">Services</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="/client-partners" data-drupal-link-system-path="node/16">Client
+                            Partners</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="/careers" data-drupal-link-system-path="node/15">Careers</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="/contact-us" data-drupal-link-system-path="node/4">Contact Us</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="/privacy-policy" data-drupal-link-system-path="node/2">Privacy
+                            Policy</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="block-copyright">
+                <p style="margin: 0;">©2019-2020&nbsp;www.macrosoftpakistan.com</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

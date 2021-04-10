@@ -1,0 +1,292 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+input.button {
+    -moz-box-shadow: inset 0px 1px 0px 0px #54a3f7;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #54a3f7;
+    box-shadow: inset 0px 1px 0px 0px #54a3f7;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+    background: -moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background: -webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background: -o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background: -ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+    background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7', GradientType=0);
+    background-color: #007dc1;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #124d77;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    padding: 8px 20px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #154682;
+}
+
+
+form#search-block-form {
+    float: right;
+    padding: 20px 0;
+}
+
+form#search-block-form .form-type-search {
+    width: 200px;
+    float: left;
+}
+
+.form-item,
+.form-actions {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+form#search-block-form #edit-actions {
+    width: 90px;
+    height: auto;
+    float: left;
+    padding-top: 0;
+}
+
+form#search-block-form .form-type-search input[type=search] {
+    width: 100%;
+    border: 1px solid #007abd;
+    height: 30px;
+}
+
+form#search-block-form #edit-actions input#edit-submit {
+    border-radius: 0;
+    height: 30px;
+    padding: 5px 15px;
+}
+
+.mp-nav-box {
+    width: 100%;
+    height: auto;
+    background: #007bbb;
+}
+
+.region-primary-menu .menu-toggle-target {
+    display: inherit;
+    position: fixed;
+    top: 0;
+}
+
+.region-primary-menu .menu-toggle {
+    background: #ededed !important;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+body:not(:target) .region-primary-menu .menu-toggle {
+    color: #333;
+    background: #ccc;
+    background: rgba(255, 255, 255, .7);
+    float: none;
+    font-size: .929em;
+    display: block;
+    text-decoration: none;
+    text-shadow: 0 1px #eee;
+    padding: .9em 10px .9em 10px;
+    z-index: 1000;
+}
+
+
+.region-primary-menu .menu {
+    font-size: .929em;
+    margin: 0 5px;
+    padding: 0;
+    text-align: left;
+}
+
+#block-mainnavigation ul {
+    width: 100% !important;
+    height: auto;
+    float: left;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+#block-mainnavigation ul li {
+    float: left;
+    background: #007bbb;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color: #333;
+    font-weight: 400;
+}
+
+#block-mainnavigation>div>ul>li>a {
+    background: none;
+    padding: 15px 45px;
+    color: #fff;
+    border-radius: 0;
+    margin: 0;
+}
+
+#block-mainnavigation ul li a:hover {
+    color: #333;
+    background-color: #a4cee7;
+}
+
+#block-mainnavigation ul li ul {
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+    display: none;
+    float: left;
+    max-width: 200px !important;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+#block-mainnavigation ul li:hover ul {
+    display: block;
+}
+
+#block-mainnavigation ul li:hover ul li {
+    width: 100%;
+    background-color: #fff;
+}
+
+#block-mainnavigation ul li:hover ul li a {
+    padding: 10px 25px;
+}
+
+#block-mainnavigation ul li a:hover ul li a {
+    color: #333;
+    font-size: 14px;
+}
+
+#block-mainnavigation ul li a:hover ul li a:hover {
+    color: #007bbb;
+    background-color: #fff;
+    width: 100%;
+    font-size: 14px;
+}
+
+@media (min-width: 901px) {
+    .region-primary-menu .block-menu .menu {
+        font-size:.929em;
+        margin: 0;
+        padding: 0 15px
+    }
+
+    .region-primary-menu .menu-item,body:not(:target) .region-primary-menu .menu-item {
+        float: left;
+        list-style: none;
+        padding: 0 1px;
+        margin: 0 1px;
+        width: auto;
+        height: auto;
+        overflow: visible
+    }
+
+    .region-primary-menu .menu a {
+        float: left;
+        padding: .7em .8em;
+        margin-bottom: 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0
+    }
+
+    .region-primary-menu .block-menu .menu {
+        font-size:.929em;
+        margin: 0;
+        padding: 0 15px
+    }
+
+    .region-primary-menu .menu-item,body:not(:target) .region-primary-menu .menu-item {
+        float: left;
+        list-style: none;
+        padding: 0 1px;
+        margin: 0 1px;
+        width: auto;
+        height: auto;
+        overflow: visible
+    }
+    .region-primary-menu .menu a {
+        float: left;
+        padding: .7em .8em;
+        margin-bottom: 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0
+    }
+
+    .featured .region-primary-menu .menu-item a:active,.featured .region-primary-menu .menu-item a.is-active {
+        background: #f0f0f0;
+        background: rgba(240,240,240,1)
+    }
+
+    body:not(:target) .region-primary-menu .menu-toggle {
+        display: none;
+    }
+}
+
+.welcome-text {
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    color: #555657;
+    line-height: 30px;
+    text-shadow: none;
+    padding-top: 35px; padding-bottom: 35px;
+}
+
+footer {
+    background: #4b4c4e;
+    color: rgba(255,255,255,.65);
+}
+
+footer .menu {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    padding-top: 52px;
+}
+
+footer .menu .menu-item {
+    display: inline-block;
+    font-size: 14px;
+    border: none;
+    padding-bottom: 10px;
+}
+
+footer .menu-item a {
+    float: left;
+    padding: 0 12px;
+    display: block;
+    border-right: 1px solid #555;
+    border-color: rgba(255,255,255,.15);
+    color: inherit;
+}
+
+footer .menu-item a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+footer .block-copyright {
+    padding: 22px 0;
+    font-size: 12px;
+    text-align: center;
+}
